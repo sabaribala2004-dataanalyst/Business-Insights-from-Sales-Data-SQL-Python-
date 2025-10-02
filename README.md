@@ -35,12 +35,11 @@ The analysis includes **table creation, data insertion, SQL queries, and visuali
 
 ---
 
-## 🛠️ SQL Analysis Steps  
+## 🛠 SQL Analysis Steps
 
-### 1. Database Setup  
-Created `sales` table in SQLite with the following schema:  
+### 1. Database Setup
+Created `sales` table in SQLite with the following schema:
 
-```sql
 CREATE TABLE sales (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     product TEXT,
@@ -48,3 +47,9 @@ CREATE TABLE sales (
     price REAL,
     sale_date TEXT
 );
+
+---
+
+##
+
+
