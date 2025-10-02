@@ -51,24 +51,20 @@ CREATE TABLE sales (
 
 ## 2. SQL Queries & Results
 
-### 📌 Query 1: Revenue by Product
+## 📌 Query 1: Revenue by Product
 ```sql
 SELECT product, SUM(quantity) AS total_qty, SUM(quantity * price) AS revenue
 FROM sales
-GROUP BY product;
+GROUP BY product
 
-- Description: Calculates total quantity sold and total revenue generated for each product.
-- Visualization: Bar Chart → Revenue by Product
-
-
-### 📌 Query 2: Revenue by Date
+## 📌 Query 2: Revenue by Date
 ```sql
 SELECT sale_date, SUM(quantity * price) AS daily_revenue
 FROM sales
 GROUP BY sale_date
 ORDER BY sale_date;
 
-### 📌 Query 3: Best-Selling Product (Quantity)
+## 📌 Query 3: Best-Selling Product (Quantity)
 ```sql
 SELECT product, SUM(quantity) AS total_qty
 FROM sales
@@ -76,7 +72,7 @@ GROUP BY product
 ORDER BY total_qty DESC
 LIMIT 1;
 
-### 📌 Query 4: Average Price per Product
+## 📌 Query 4: Average Price per Product
 ```sql
 SELECT product, AVG(price) AS avg_price
 FROM sales
