@@ -48,3 +48,8 @@ CREATE TABLE sales (
     price REAL,
     sale_date TEXT
 );
+
+##  SQL Queries & Results
+
+
+
