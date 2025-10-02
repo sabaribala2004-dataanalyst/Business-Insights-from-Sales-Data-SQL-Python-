@@ -46,7 +46,8 @@ CREATE TABLE sales (
     quantity INTEGER,
     price REAL,
     sale_date TEXT
-); 
+);
+
 
 ## 📊 Visualizations
 
