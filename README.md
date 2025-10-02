@@ -46,10 +46,21 @@ CREATE TABLE sales (
     quantity INTEGER,
     price REAL,
     sale_date TEXT
-);
+); 
 
----
+## 📊 Visualizations
 
-##
+- 📊 Bar chart → Revenue by Product
+- 📈 Line chart → Revenue by Date
+- 📉 Horizontal bar chart → Best-Selling Product
+- 📊 Bar chart → Average Price per Product
+
+(All visualizations are generated using Pandas + Matplotlib in the notebook.)
+
+## 📂 Output Files
+
+- 📒 Notebook: <a href=""> Click to View the Notebook </a>
+- 🗄️ Database File: sales_data.db
+- 📊 Charts & Visualizations: Available inside the notebook
 
 
