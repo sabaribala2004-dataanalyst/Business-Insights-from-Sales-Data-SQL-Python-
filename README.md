@@ -49,7 +49,7 @@ CREATE TABLE sales (
     sale_date TEXT
 );
 
-##  SQL Queries & Results
+
 
 
 
