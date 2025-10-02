@@ -59,8 +59,23 @@ CREATE TABLE sales (
 
 ## 📂 Output Files
 
-- 📒 Notebook: <a href=""> Click to View the Notebook </a>
+- 📒 Notebook: <a href="https://github.com/sabaribala2004-dataanalyst/Business-Insights-from-Sales-Data-SQL-Python-/blob/main/SQL_Python_Data_Analysis.ipynb"> Click to View the Notebook </a>
 - 🗄️ Database File: sales_data.db
-- 📊 Charts & Visualizations: Available inside the notebook
+- 📊 Charts & Visualizations: Available inside the notebook.
+
+## ✅ Status
+✔ Database created successfully in SQLite
+✔ Inserted and analyzed sales data using SQL queries
+✔ Generated insights on product performance and revenue trends
+✔ Visualized SQL outputs using Pandas & Matplotlib
+✔ Task completed as per internship requirements
+
+This project demonstrates:
+
+- SQL for Data Analysis
+- Extracting business insights from raw sales data
+- Integration of SQL queries + Python visualization
+
+📌 The dataset is now analysis-ready and SQL skills are effectively applied to generate actionable insights.
 
 
