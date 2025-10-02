@@ -35,6 +35,39 @@ The analysis includes **table creation, data insertion, SQL queries, and visuali
 
 ---
 
+## 📊 Visualizations
+
+- 📊 Bar chart → Revenue by Product
+- 📈 Line chart → Revenue by Date
+- 📉 Horizontal bar chart → Best-Selling Product
+- 📊 Bar chart → Average Price per Product
+
+(All visualizations are generated using Pandas + Matplotlib in the notebook.)
+
+## 📂 Output Files
+
+- 📒 Notebook: <a href="https://github.com/sabaribala2004-dataanalyst/Business-Insights-from-Sales-Data-SQL-Python-/blob/main/SQL_Python_Data_Analysis.ipynb"> Click to View the Notebook </a>
+- 🗄️ Database File: sales_data.db
+- 📊 Charts & Visualizations: Available inside the notebook.
+
+## ✅ Status
+- ✔ Database created successfully in SQLite
+- ✔ Inserted and analyzed sales data using SQL queries
+- ✔ Generated insights on product performance and revenue trends
+- ✔ Visualized SQL outputs using Pandas & Matplotlib
+- ✔ Task completed as per internship requirements
+
+This project demonstrates:
+
+- SQL for Data Analysis
+- Extracting business insights from raw sales data
+- Integration of SQL queries + Python visualization
+
+📌 The dataset is now analysis-ready and SQL skills are effectively applied to generate actionable insights.
+
+## 🛠 SQL + Python Code  
+
+```python
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -124,35 +157,5 @@ conn.close()
 print("✅ Task 7 completed successfully!")
 
 
-
-## 📊 Visualizations
-
-- 📊 Bar chart → Revenue by Product
-- 📈 Line chart → Revenue by Date
-- 📉 Horizontal bar chart → Best-Selling Product
-- 📊 Bar chart → Average Price per Product
-
-(All visualizations are generated using Pandas + Matplotlib in the notebook.)
-
-## 📂 Output Files
-
-- 📒 Notebook: <a href="https://github.com/sabaribala2004-dataanalyst/Business-Insights-from-Sales-Data-SQL-Python-/blob/main/SQL_Python_Data_Analysis.ipynb"> Click to View the Notebook </a>
-- 🗄️ Database File: sales_data.db
-- 📊 Charts & Visualizations: Available inside the notebook.
-
-## ✅ Status
-- ✔ Database created successfully in SQLite
-- ✔ Inserted and analyzed sales data using SQL queries
-- ✔ Generated insights on product performance and revenue trends
-- ✔ Visualized SQL outputs using Pandas & Matplotlib
-- ✔ Task completed as per internship requirements
-
-This project demonstrates:
-
-- SQL for Data Analysis
-- Extracting business insights from raw sales data
-- Integration of SQL queries + Python visualization
-
-📌 The dataset is now analysis-ready and SQL skills are effectively applied to generate actionable insights.
 
 
