@@ -1,4 +1,4 @@
-# 🛒 Business Insights from Sales Data (SQL + Python) (Task 7)
+# 🛒 Business Insights from Sales Data (SQL + Python) 
 
 ## 📌 Description  
 This project is part of a **Data Analyst Internship Task (Task 7)**.  
